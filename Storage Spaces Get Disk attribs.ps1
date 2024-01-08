@@ -1,0 +1,1 @@
+﻿Get-PhysicalDisk | sort-object model | select-object slotnumber, friendlyname, manufacturer, model, physicalsectorsize, logicalsectorsize | format-table
